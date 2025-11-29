@@ -1,4 +1,4 @@
-# 🚀 NodeJS Projects Collection
+# ｡🇯‌🇸‌ NodeJS Projects Collection
 
 Bienvenue dans mon dépôt regroupant l’ensemble de mes projets développés avec **Node.js**.
 Ce repository centralise plusieurs applications backend illustrant ma progression, mes expérimentations et ma maîtrise croissante de l’écosystème JavaScript côté serveur.
