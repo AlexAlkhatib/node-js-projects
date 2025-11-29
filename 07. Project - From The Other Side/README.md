@@ -1,4 +1,4 @@
-# 🕯️ From The Other Side — Plateforme interactive de signalements paranormaux**
+# 🕯️ From The Other Side — Plateforme interactive de signalements paranormaux
 
 *From The Other Side* est une application full-stack construite avec **Node.js**, **HTML/CSS/JS** et un serveur HTTP fait maison.
 Elle permet aux utilisateurs de **consulter**, **publier** et **suivre en direct** des signalements d’activités paranormales, le tout dans un univers immersif.
