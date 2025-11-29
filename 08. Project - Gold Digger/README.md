@@ -1,21 +1,20 @@
-# GoldDigger 💰
+# 💰 GoldDigger — Suivi du prix de l’or & investissement virtuel
 
-**GoldDigger** is a full-stack Node.js application that simulates real-time gold price tracking and allows users to virtually invest in digital gold. It dynamically generates a downloadable PDF receipt for each investment using `pdfkit`, and uses Server-Sent Events (SSE) for live updates.
+**GoldDigger** est une application **Node.js full-stack** permettant de suivre en temps réel l’évolution (simulée) du prix de l’or et d’investir virtuellement dans de l’or numérique.
+L’application génère automatiquement un **reçu PDF téléchargeable** pour chaque investissement grâce à **PDFKit**, et utilise **Server-Sent Events (SSE)** pour actualiser les prix en direct.
 
----
 
-## 🚀 Features
+## 🚀 Fonctionnalités
 
-- 📈 **Live Gold Price Tracking** (via SSE) (fake price)
-- 🪙 **Invest in Digital Gold**
-- 📄 **PDF Receipt Generation**
-- 🧾 **Downloadable Investment Summary**
-- 🧠 Clean, Modular Architecture with Utility Functions
-- ❌ Custom 404 Error Page
+* 📈 **Suivi en temps réel** du prix de l’or (prix simulé)
+* 🪙 **Système d’investissement virtuel**
+* 📄 **Génération automatique de reçus PDF**
+* 🧾 **Téléchargement d’un résumé d’investissement**
+* 🧠 Architecture modulaire propre (utils, routing basique)
+* ❌ Page d’erreur personnalisée (404)
 
----
 
-## 📁 Project Structure
+## 📂 Structure du Projet
 
 ```
 GoldDigger/
@@ -38,41 +37,41 @@ GoldDigger/
 └── server.js
 ```
 
----
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/golddigger.git
+git clone https://github.com/username/golddigger.git
 cd golddigger
 npm install
 npm start
 ```
 
-Then visit: [http://localhost:8000](http://localhost:8000)
+Accéder ensuite à :
 
----
+👉 [http://localhost:8000](http://localhost:8000)
 
-## 🔧 Tech Stack
 
-- **Backend**: Node.js (HTTP core module)
-- **Frontend**: HTML, CSS, JavaScript
-- **PDF Generation**: `pdfkit`
-- **Live Updates**: Server-Sent Events (SSE)
+## 🛠️ Stack Technique
 
----
+* **Backend :** Node.js (module `http`)
+* **Frontend :** HTML / CSS / JavaScript
+* **Génération PDF :** PDFKit
+* **Mises à jour en temps réel :** Server-Sent Events (SSE)
 
-## 📜 API Endpoints
+
+## 📡 API
 
 ### `GET /api/price`
-- Returns real-time gold price using Server-Sent Events.
-- Auto-updates every 2 seconds.
+
+Renvoie le prix de l’or en direct via **SSE**, mis à jour toutes les 2 secondes.
 
 ### `POST /api/invest`
-- Accepts investment data.
-- Generates and returns a PDF receipt of the transaction.
 
-#### Example JSON Payload:
+Reçoit les données d’investissement, génère un **reçu PDF** et renvoie le fichier au client.
+
+#### Exemple de payload :
+
 ```json
 {
   "goldPrice": 10000.00,
@@ -81,25 +80,20 @@ Then visit: [http://localhost:8000](http://localhost:8000)
 }
 ```
 
----
+
+## 👤 Auteur
+
+**Alex Alkhatib**
+Full-Stack Software Engineer
+[GitHub – AlexAlkhatib](https://github.com/AlexAlkhatib)
 
 
+## 📄 Licence
 
-## 👨‍💻 Author
+MIT License — Copyright © 2025
 
-Alex Alkhatib [GitHub](https://github.com/AlexAlkhatib)
 
-Fullstack Software Enginner
+## 📝 Notes
 
----
-
-## 📄 License
-
-MIT License Copyright (c) 2025 Alex Alkhatib
-
----
-
-## 📌 Notes
-
-- This is a demo app and does not handle real transactions.
-- Prices are randomly generated and not sourced from real markets.
+* Cette application est un **prototype démo**, sans transactions réelles.
+* Les prix affichés sont **aléatoires** et ne proviennent pas de marchés financiers.
