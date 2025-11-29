@@ -1,4 +1,4 @@
-# 🕹️ RetroTech — Mini-boutique vintage inspirée des technologies rétro — Projet Fullstack
+# 🕹️ RetroTech — Mini-boutique vintage inspirée des technologies rétro
 
 RetroTech est une application web full-stack simple et élégante rendant hommage aux technologies vintage.
 Elle simule une petite boutique en ligne proposant des consoles rétro, accessoires anciens et objets tech emblématiques.
