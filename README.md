@@ -36,11 +36,11 @@ Les projets inclus couvrent un large éventail de thématiques Backend, tels que
 
 Ce repository a été créé pour :
 
-✔️ Centraliser mes projets d’apprentissage Node.js
-✔️ Illustrer différentes architectures et bonnes pratiques backend
-✔️ Explorer les fonctionnalités avancées de l’écosystème NodeJS
-✔️ Documenter mon évolution en développement serveur
-✔️ Servir de base pour de futurs projets plus complets (API, microservices, etc.)
+- ✔️ Centraliser mes projets d’apprentissage Node.js
+- ✔️ Illustrer différentes architectures et bonnes pratiques backend
+- ✔️ Explorer les fonctionnalités avancées de l’écosystème NodeJS
+- ✔️ Documenter mon évolution en développement serveur
+- ✔️ Servir de base pour de futurs projets plus complets (API, microservices, etc.)
 
 
 ## ▶️ Comment Exécuter un Projet
